@@ -20,6 +20,7 @@
                                         library="build/controllers/epuck_brownian/libepuck_brownian.so">
       <actuators>
         <differential_steering implementation="default" />
+        <range_and_bearing implementation="default" />
       </actuators>
       <sensors>
         <proximity implementation="default" show_rays="true" />
@@ -27,6 +28,8 @@
         		pos_noise_range="-0.1:0.2"
         		angle_noise_range="-10.5:13.7"
         		axis_noise_range="-0.3:0.4"/>
+        <light implementation="default" show_rays="true" />
+        <range_and_bearing implementation="medium" medium="rab" show_rays="true" />
       </sensors>
       <params velocity="5" />
     </epuck_brownian_controller>
@@ -63,8 +66,8 @@
     <distribute>
       <position method="uniform" min="-2,-2,0" max="2,2,0" />
       <orientation method="gaussian" mean="0,0,0" std_dev="360,0,0" />
-      <entity quantity="5" max_trials="100">
-        <e-puck id="fb">
+      <entity quantity="6" max_trials="100">
+        <e-puck id="fb" rab_range="3" rab_data_size="10">
           <controller config="fdc" />
         </e-puck>
       </entity>
@@ -82,7 +85,9 @@
   <!-- ********* -->
   <!-- * Media * -->
   <!-- ********* -->
-  <media />
+  <media>
+    <range_and_bearing id="rab" />
+  </media>
 
   <!-- ****************** -->
   <!-- * Visualization * -->

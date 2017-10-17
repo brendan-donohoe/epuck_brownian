@@ -24,7 +24,12 @@
 #include <argos3/plugins/robots/generic/control_interface/ci_proximity_sensor.h>
 /* Definition of positioning sensor */
 #include <argos3/plugins/robots/generic/control_interface/ci_positioning_sensor.h>
-
+/* Definition of light sensor */
+#include <argos3/plugins/robots/generic/control_interface/ci_light_sensor.h>
+/* Definition of range-and-bearing actuator */
+#include <argos3/plugins/robots/generic/control_interface/ci_range_and_bearing_actuator.h>
+/* Definition of range-and-bearing sensor */
+#include <argos3/plugins/robots/generic/control_interface/ci_range_and_bearing_sensor.h>
 
 /*
  * All the ARGoS stuff in the 'argos' namespace.
@@ -82,9 +87,14 @@ private:
    CCI_DifferentialSteeringActuator* m_pcWheels;
    /* Pointer to the e-puck proximity sensor */
    CCI_ProximitySensor* m_pcProximity;
-   /* Pointer to the range-and-bearing sensor */
-   CCI_PositioningSensor* m_pcPosition;
    /* Pointer to the positioning sensor */
+   CCI_PositioningSensor* m_pcPosition;
+   /* Pointer to the light sensor */
+   CCI_LightSensor* m_pcLight;
+   /* Pointer to the range-and-bearing actuator */
+   CCI_RangeAndBearingActuator* m_pcRABA;
+   /* Pointer to the range-and-bearing sensor */
+   CCI_RangeAndBearingSensor* m_pcRABS;
 
    /*
     * The following variables are used as parameters for the
@@ -95,6 +105,12 @@ private:
    /* Wheel speed. */
    Real m_fWheelVelocity;
 
+   enum EGoalStatus
+   {
+     GOAL_NOT_FOUND = 0,
+     GOAL_FOUND
+   } m_eGoalStatus;
+
    double goal_x;
    double goal_y;
 
@@ -102,6 +118,8 @@ private:
    int state_ticks;
    int tick_wander;
    int tick_turn;
+
+   bool goal_found;
 };
 
 #endif
