@@ -39,9 +39,16 @@
   <!-- *********************** -->
   <!-- * Arena configuration * -->
   <!-- *********************** -->
-  <arena size="5, 5, 1" center="0,0,0.5">
+  <arena size="10, 10, 1" center="0,0,0.5">
 
-    <box id="wall_north" size="4,0.1,0.5" movable="false">
+    <light id="light"
+           position="4.4,1.3,0.5"
+           orientation="0,0,0"
+           color="yellow"
+           intensity="3.0"
+           medium="leds" />
+
+    <!-- <box id="wall_north" size="4,0.1,0.5" movable="false">
       <body position="0,2,0" orientation="0,0,0" />
     </box>
     <box id="wall_south" size="4,0.1,0.5" movable="false">
@@ -52,7 +59,7 @@
     </box>
     <box id="wall_west" size="0.1,4,0.5" movable="false">
       <body position="-2,0,0" orientation="0,0,0" />
-    </box>
+    </box> -->
 
     <!--
         You can distribute entities randomly. Here, we distribute
@@ -87,6 +94,7 @@
   <!-- ********* -->
   <media>
     <range_and_bearing id="rab" />
+    <led id="leds" />
   </media>
 
   <!-- ****************** -->
