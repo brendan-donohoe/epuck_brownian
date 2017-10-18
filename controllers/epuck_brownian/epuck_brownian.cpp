@@ -62,16 +62,12 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
 
    std::cout << "Init() called" << std::endl;
 
-   goal_x = 0.0;
-   goal_y = 0.0;
+   goal_x = 4.4;
+   goal_y = 1.3;
 
    ticks = 0;
-   state_ticks = 0;
-   tick_wander = 15 * 10;
-   tick_turn = (int) (((double) rand() / RAND_MAX) * 5 * 10);
-
-   goal_found = false;
-   m_pcRABA->SetData(0, GOAL_NOT_FOUND);
+   
+   m_pcRABA->SetData(0, FUNCTIONING);
 }
 
 /****************************************/
@@ -79,85 +75,7 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
 
 void CEPuckBrownian::ControlStep()
 {
-  if (!goal_found)
-  {
-    double x = m_pcPosition->GetReading().Position.GetX();
-    double y = m_pcPosition->GetReading().Position.GetY();
-
-    if (sqrt((x - goal_x) * (x - goal_x) + (y - goal_y) * (y - goal_y)) < 0.05)
-    {
-      /* Goal found - stop moving and notify the other robots that it has
-         found the goal. */
-      m_pcWheels->SetLinearVelocity(0, 0);
-      m_pcRABA->SetData(0, GOAL_FOUND);
-      goal_found = true;
-      argos::LOG << "Goal discovered!" << std::endl;
-      return;
-    }
-
-    /* Otherwise, check to see if at least one other robot has found the goal
-       already.  If so, move toward the closest such robot. */
-    bool other_goal_found = false;
-    double range = 0.0;
-    double horiz_bearing = 0.0;
-
-    const CCI_RangeAndBearingSensor::TReadings& tPackets = m_pcRABS->GetReadings();
-
-    for (size_t i = 0; i < tPackets.size(); i++)
-    {
-      if (tPackets[i].Data[0] == GOAL_FOUND)
-      {
-        if (!other_goal_found)
-        {
-          range = tPackets[i].Range;
-          horiz_bearing = tPackets[i].HorizontalBearing.GetValue();
-          other_goal_found = true;
-        }
-        else if (tPackets[i].Range < range)
-        {
-          range = tPackets[i].Range;
-          horiz_bearing = tPackets[i].HorizontalBearing.GetValue();
-        }
-      }
-    }
-
-    if (other_goal_found)
-    {
-      /* First, check to see how closely we are facing the robot at the goal -
-         if need be, turn until facing it. */
-
-      if (fabs(horiz_bearing) > 0.1)
-      {
-        m_pcWheels->SetLinearVelocity(m_fWheelVelocity, 0);
-      }
-      else
-      {
-        /* Move toward the robot at the goal. */
-        m_pcWheels->SetLinearVelocity(m_fWheelVelocity, m_fWheelVelocity);
-      }
-    }
-    else
-    {
-      if (state_ticks < tick_wander)
-      {
-        /* Simply move straight. */
-        m_pcWheels->SetLinearVelocity(m_fWheelVelocity, m_fWheelVelocity);
-      }
-      else if (state_ticks < (tick_wander + tick_turn))
-      {
-        /* Turn to a random orientation. */
-        m_pcWheels->SetLinearVelocity(m_fWheelVelocity, 0.0);
-      }
-      else
-      {
-        state_ticks = 0;
-        tick_turn = (int) (((double) rand() / RAND_MAX) * 5 * 10);
-      }
-
-      ticks++;
-      state_ticks++;
-    }
-  }
+  // TODO: Implement ControlStep().
 }
 
 void CEPuckBrownian::Destroy() {

@@ -105,21 +105,16 @@ private:
    /* Wheel speed. */
    Real m_fWheelVelocity;
 
-   enum EGoalStatus
+   enum EEmitStatus
    {
-     GOAL_NOT_FOUND = 0,
-     GOAL_FOUND
-   } m_eGoalStatus;
+     MALFUNCTIONING = 0,
+     FUNCTIONING
+   } m_eEmitStatus;
 
    double goal_x;
    double goal_y;
 
    int ticks;
-   int state_ticks;
-   int tick_wander;
-   int tick_turn;
-
-   bool goal_found;
 };
 
 #endif
