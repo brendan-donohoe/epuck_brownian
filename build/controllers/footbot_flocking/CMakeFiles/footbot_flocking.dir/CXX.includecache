@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_flocking/footbot_flocking_automoc.cpp
+
+/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_flocking/footbot_flocking.cpp
+footbot_flocking.h
+/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_flocking/footbot_flocking.h
+argos3/core/utility/configuration/argos_configuration.h
+-
+argos3/core/utility/logging/argos_log.h
+-
+
+/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_flocking/footbot_flocking.h
+argos3/core/control_interface/ci_controller.h
+-
+argos3/plugins/robots/generic/control_interface/ci_differential_steering_actuator.h
+-
+argos3/plugins/robots/generic/control_interface/ci_leds_actuator.h
+-
+argos3/plugins/robots/generic/control_interface/ci_colored_blob_omnidirectional_camera_sensor.h
+-
+argos3/plugins/robots/foot-bot/control_interface/ci_footbot_light_sensor.h
+-
+argos3/core/utility/math/vector2.h
+-
+

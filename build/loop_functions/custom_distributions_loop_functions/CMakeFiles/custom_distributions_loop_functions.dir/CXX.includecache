@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/custom_distributions_loop_functions/custom_distributions_loop_functions_automoc.cpp
+
+/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/custom_distributions_loop_functions/custom_distributions_loop_functions.cpp
+custom_distributions_loop_functions.h
+/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/custom_distributions_loop_functions/custom_distributions_loop_functions.h
+argos3/plugins/simulator/entities/box_entity.h
+-
+argos3/plugins/simulator/entities/cylinder_entity.h
+-
+argos3/plugins/robots/foot-bot/simulator/footbot_entity.h
+-
+sstream
+-
+list
+-
+
+/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/custom_distributions_loop_functions/custom_distributions_loop_functions.h
+argos3/core/simulator/loop_functions.h
+-
+

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/trajectory_loop_functions/trajectory_loop_functions_automoc.cpp
+
+/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/trajectory_loop_functions/trajectory_loop_functions.cpp
+trajectory_loop_functions.h
+/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/trajectory_loop_functions/trajectory_loop_functions.h
+
+/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/trajectory_loop_functions/trajectory_loop_functions.h
+argos3/core/simulator/loop_functions.h
+-
+argos3/plugins/robots/foot-bot/simulator/footbot_entity.h
+-
+
+/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/trajectory_loop_functions/trajectory_qtuser_functions.cpp
+trajectory_qtuser_functions.h
+/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/trajectory_loop_functions/trajectory_qtuser_functions.h
+trajectory_loop_functions.h
+/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/trajectory_loop_functions/trajectory_loop_functions.h
+
+/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/trajectory_loop_functions/trajectory_qtuser_functions.h
+argos3/plugins/simulator/visualizations/qt-opengl/qtopengl_user_functions.h
+-
+argos3/plugins/robots/foot-bot/simulator/footbot_entity.h
+-
+
