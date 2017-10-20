@@ -83,38 +83,42 @@ public:
 
 private:
 
-   /* Pointer to the differential steering actuator */
-   CCI_DifferentialSteeringActuator* m_pcWheels;
-   /* Pointer to the e-puck proximity sensor */
-   CCI_ProximitySensor* m_pcProximity;
-   /* Pointer to the positioning sensor */
-   CCI_PositioningSensor* m_pcPosition;
-   /* Pointer to the light sensor */
-   CCI_LightSensor* m_pcLight;
-   /* Pointer to the range-and-bearing actuator */
-   CCI_RangeAndBearingActuator* m_pcRABA;
-   /* Pointer to the range-and-bearing sensor */
-   CCI_RangeAndBearingSensor* m_pcRABS;
+  /* Pointer to the differential steering actuator */
+  CCI_DifferentialSteeringActuator* m_pcWheels;
+  /* Pointer to the e-puck proximity sensor */
+  CCI_ProximitySensor* m_pcProximity;
+  /* Pointer to the positioning sensor */
+  CCI_PositioningSensor* m_pcPosition;
+  /* Pointer to the light sensor */
+  CCI_LightSensor* m_pcLight;
+  /* Pointer to the range-and-bearing actuator */
+  CCI_RangeAndBearingActuator* m_pcRABA;
+  /* Pointer to the range-and-bearing sensor */
+  CCI_RangeAndBearingSensor* m_pcRABS;
 
-   /*
-    * The following variables are used as parameters for the
-    * algorithm. You can set their value in the <parameters> section
-    * of the XML configuration file, under the
-    * <controllers><epuck_brownian_controller> section.
-    */
-   /* Wheel speed. */
-   Real m_fWheelVelocity;
+  /*
+   * The following variables are used as parameters for the
+   * algorithm. You can set their value in the <parameters> section
+   * of the XML configuration file, under the
+   * <controllers><epuck_brownian_controller> section.
+   */
+  /* Wheel speed. */
+  Real m_fWheelVelocity;
 
-   enum EEmitStatus
-   {
-     MALFUNCTIONING = 0,
-     FUNCTIONING
-   } m_eEmitStatus;
+  enum EMalfunctionType
+  {
+    FUNCTIONING = 0,
+    POWER_FAILURE,
+    SENSOR_FAILURE,
+    MOTOR_FAILURE
+  } m_eMalfunctionType;
 
-   double goal_x;
-   double goal_y;
+  double avoid_radius_init;
+  double avoid_radius_light;
 
-   int ticks;
+  int omega_ticks;
+
+  int ticks_since_last_avoidance;
 };
 
 #endif
