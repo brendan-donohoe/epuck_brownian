@@ -354,6 +354,19 @@ void CEPuckBrownian::PowerFailureStep()
   m_pcWheels->SetLinearVelocity(0.0, 0.0);
 }
 
+/****************************************/
+/****************************************/
+
+void CEPuckBrownian::PowerFailureStep()
+{
+  /*
+   * This robot has experienced power failure, and so does not move.  Simply
+   * remain stationary.
+   */
+
+  m_pcWheels->SetLinearVelocity(0.0, 0.0);
+}
+
 void CEPuckBrownian::Destroy() {
   std::cout << "Destroy() called" << std::endl;
 }
