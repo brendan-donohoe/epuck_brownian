@@ -93,6 +93,8 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
                break;
     case 'p' : failure_type = POWER_FAILURE;
                break;
+    case 's' : failure_type = SENSOR_FAILURE;
+               break;
     case 'm' : failure_type = MOTOR_FAILURE;
                break;
     default  : std::cout << "ERROR: UNKNOWN FAILURE TYPE";
@@ -106,7 +108,7 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
    * robots know that we are functioning normally.
    */
 
-  current_type = SENSOR_FAILURE;
+  current_type = FUNCTIONING;
 
   m_pcRABA->SetData(0, FUNCTIONING);
 }
@@ -149,7 +151,6 @@ void CEPuckBrownian::ControlStep()
                          break;
     case SENSOR_FAILURE: SensorFailureStep();
                          break;
-
     case MOTOR_FAILURE : MotorFailureStep();
                           break;
     default            : std::cout << "ERROR: UNKNOWN FAILURE TYPE";
@@ -366,13 +367,11 @@ void CEPuckBrownian::PowerFailureStep()
 void CEPuckBrownian::SensorFailureStep()
 {
   /*
-   * This robot has experienced sensor failure. It will randomly walk and will not
-   * send any information to other robots.
+   * This robot has experienced sensor failure. It will continue moving in the
+   * same direction as before it's sensor failed. 
    */
    
-  random_turn = (int)(((double) rand() / RAND_MAX) * 5 * 10);
-  
-  m_pcWheels->SetLinearVelocity(random_turn, 0.0);
+  m_pcWheels->SetLinearVelocity(m_fWheelVelocity, m_fWheelVelocity);
 }
 
 void CEPuckBrownian::MotorFailureStep()
