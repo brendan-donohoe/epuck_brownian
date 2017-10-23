@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/germainesy/Documents/cs491/epuck_brownian
+CMAKE_SOURCE_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
+CMAKE_BINARY_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/mpga_loop_functions/CMakeFiles/progress.marks
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles 0
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/mpga_loop_functions/CMakeFiles/progress.marks
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/clean
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/preinstall
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/preinstall
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/rule:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/rule
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/rule
 .PHONY : loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ mpga_phototaxis_loop_functions: loop_functions/mpga_loop_functions/CMakeFiles/mp
 
 # fast build rule for target.
 mpga_phototaxis_loop_functions/fast:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build
 .PHONY : mpga_phototaxis_loop_functions/fast
 
 # Convenience name for target.
 loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/rule:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/rule
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/rule
 .PHONY : loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ mpga: loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/rule
 
 # fast build rule for target.
 mpga/fast:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build
 .PHONY : mpga/fast
 
 # Convenience name for target.
 loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions_automoc.dir/rule:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions_automoc.dir/rule
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions_automoc.dir/rule
 .PHONY : loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions_automoc.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ mpga_phototaxis_loop_functions_automoc: loop_functions/mpga_loop_functions/CMake
 
 # fast build rule for target.
 mpga_phototaxis_loop_functions_automoc/fast:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions_automoc.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions_automoc.dir/build
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions_automoc.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions_automoc.dir/build
 .PHONY : mpga_phototaxis_loop_functions_automoc/fast
 
 # Convenience name for target.
 loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/rule:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/rule
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/rule
 .PHONY : loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ mpga_automoc: loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/rul
 
 # fast build rule for target.
 mpga_automoc/fast:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/build
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/build
 .PHONY : mpga_automoc/fast
 
 mpga.o: mpga.cpp.o
@@ -176,7 +176,7 @@ mpga.o: mpga.cpp.o
 
 # target to build an object file
 mpga.cpp.o:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga.cpp.o
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga.cpp.o
 .PHONY : mpga.cpp.o
 
 mpga.i: mpga.cpp.i
@@ -185,7 +185,7 @@ mpga.i: mpga.cpp.i
 
 # target to preprocess a source file
 mpga.cpp.i:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga.cpp.i
 .PHONY : mpga.cpp.i
 
 mpga.s: mpga.cpp.s
@@ -194,7 +194,7 @@ mpga.s: mpga.cpp.s
 
 # target to generate assembly for a file
 mpga.cpp.s:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga.cpp.s
 .PHONY : mpga.cpp.s
 
 mpga_automoc.o: mpga_automoc.cpp.o
@@ -203,7 +203,7 @@ mpga_automoc.o: mpga_automoc.cpp.o
 
 # target to build an object file
 mpga_automoc.cpp.o:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga_automoc.cpp.o
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga_automoc.cpp.o
 .PHONY : mpga_automoc.cpp.o
 
 mpga_automoc.i: mpga_automoc.cpp.i
@@ -212,7 +212,7 @@ mpga_automoc.i: mpga_automoc.cpp.i
 
 # target to preprocess a source file
 mpga_automoc.cpp.i:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga_automoc.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga_automoc.cpp.i
 .PHONY : mpga_automoc.cpp.i
 
 mpga_automoc.s: mpga_automoc.cpp.s
@@ -221,7 +221,7 @@ mpga_automoc.s: mpga_automoc.cpp.s
 
 # target to generate assembly for a file
 mpga_automoc.cpp.s:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga_automoc.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga_automoc.cpp.s
 .PHONY : mpga_automoc.cpp.s
 
 mpga_loop_functions.o: mpga_loop_functions.cpp.o
@@ -230,7 +230,7 @@ mpga_loop_functions.o: mpga_loop_functions.cpp.o
 
 # target to build an object file
 mpga_loop_functions.cpp.o:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga_loop_functions.cpp.o
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga_loop_functions.cpp.o
 .PHONY : mpga_loop_functions.cpp.o
 
 mpga_loop_functions.i: mpga_loop_functions.cpp.i
@@ -239,7 +239,7 @@ mpga_loop_functions.i: mpga_loop_functions.cpp.i
 
 # target to preprocess a source file
 mpga_loop_functions.cpp.i:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga_loop_functions.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga_loop_functions.cpp.i
 .PHONY : mpga_loop_functions.cpp.i
 
 mpga_loop_functions.s: mpga_loop_functions.cpp.s
@@ -248,7 +248,7 @@ mpga_loop_functions.s: mpga_loop_functions.cpp.s
 
 # target to generate assembly for a file
 mpga_loop_functions.cpp.s:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga_loop_functions.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga.dir/mpga_loop_functions.cpp.s
 .PHONY : mpga_loop_functions.cpp.s
 
 mpga_phototaxis_loop_functions.o: mpga_phototaxis_loop_functions.cpp.o
@@ -257,7 +257,7 @@ mpga_phototaxis_loop_functions.o: mpga_phototaxis_loop_functions.cpp.o
 
 # target to build an object file
 mpga_phototaxis_loop_functions.cpp.o:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/mpga_phototaxis_loop_functions.cpp.o
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/mpga_phototaxis_loop_functions.cpp.o
 .PHONY : mpga_phototaxis_loop_functions.cpp.o
 
 mpga_phototaxis_loop_functions.i: mpga_phototaxis_loop_functions.cpp.i
@@ -266,7 +266,7 @@ mpga_phototaxis_loop_functions.i: mpga_phototaxis_loop_functions.cpp.i
 
 # target to preprocess a source file
 mpga_phototaxis_loop_functions.cpp.i:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/mpga_phototaxis_loop_functions.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/mpga_phototaxis_loop_functions.cpp.i
 .PHONY : mpga_phototaxis_loop_functions.cpp.i
 
 mpga_phototaxis_loop_functions.s: mpga_phototaxis_loop_functions.cpp.s
@@ -275,7 +275,7 @@ mpga_phototaxis_loop_functions.s: mpga_phototaxis_loop_functions.cpp.s
 
 # target to generate assembly for a file
 mpga_phototaxis_loop_functions.cpp.s:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/mpga_phototaxis_loop_functions.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/mpga_phototaxis_loop_functions.cpp.s
 .PHONY : mpga_phototaxis_loop_functions.cpp.s
 
 mpga_phototaxis_loop_functions_automoc.o: mpga_phototaxis_loop_functions_automoc.cpp.o
@@ -284,7 +284,7 @@ mpga_phototaxis_loop_functions_automoc.o: mpga_phototaxis_loop_functions_automoc
 
 # target to build an object file
 mpga_phototaxis_loop_functions_automoc.cpp.o:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/mpga_phototaxis_loop_functions_automoc.cpp.o
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/mpga_phototaxis_loop_functions_automoc.cpp.o
 .PHONY : mpga_phototaxis_loop_functions_automoc.cpp.o
 
 mpga_phototaxis_loop_functions_automoc.i: mpga_phototaxis_loop_functions_automoc.cpp.i
@@ -293,7 +293,7 @@ mpga_phototaxis_loop_functions_automoc.i: mpga_phototaxis_loop_functions_automoc
 
 # target to preprocess a source file
 mpga_phototaxis_loop_functions_automoc.cpp.i:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/mpga_phototaxis_loop_functions_automoc.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/mpga_phototaxis_loop_functions_automoc.cpp.i
 .PHONY : mpga_phototaxis_loop_functions_automoc.cpp.i
 
 mpga_phototaxis_loop_functions_automoc.s: mpga_phototaxis_loop_functions_automoc.cpp.s
@@ -302,7 +302,7 @@ mpga_phototaxis_loop_functions_automoc.s: mpga_phototaxis_loop_functions_automoc
 
 # target to generate assembly for a file
 mpga_phototaxis_loop_functions_automoc.cpp.s:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/mpga_phototaxis_loop_functions_automoc.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/build.make loop_functions/mpga_loop_functions/CMakeFiles/mpga_phototaxis_loop_functions.dir/mpga_phototaxis_loop_functions_automoc.cpp.s
 .PHONY : mpga_phototaxis_loop_functions_automoc.cpp.s
 
 # Help Target
@@ -343,6 +343,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

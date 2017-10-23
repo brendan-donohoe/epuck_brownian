@@ -50,9 +50,9 @@ argos3/core/control_interface/ci_controller.h
 neural_network.h
 ../controllers/footbot_nn/nn/neural_network.h
 
-/home/germainesy/Documents/cs491/epuck_brownian/build/embedding/mpga/mpga_phototaxis_automoc.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/build/embedding/mpga/mpga_phototaxis_automoc.cpp
 
-/home/germainesy/Documents/cs491/epuck_brownian/embedding/mpga/main.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/embedding/mpga/main.cpp
 iostream
 -
 fstream

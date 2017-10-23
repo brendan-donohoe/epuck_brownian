@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_nn/footbot_nn_automoc.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_nn/footbot_nn_automoc.cpp
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/footbot_nn_controller.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/footbot_nn_controller.cpp
 footbot_nn_controller.h
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/footbot_nn_controller.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/footbot_nn_controller.h
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/footbot_nn_controller.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/footbot_nn_controller.h
 argos3/core/control_interface/ci_controller.h
 -
 argos3/plugins/robots/generic/control_interface/ci_differential_steering_actuator.h
@@ -22,11 +22,11 @@ argos3/plugins/robots/foot-bot/control_interface/ci_footbot_proximity_sensor.h
 argos3/plugins/robots/foot-bot/control_interface/ci_footbot_light_sensor.h
 -
 nn/perceptron.h
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/nn/perceptron.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/nn/perceptron.h
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/nn/ctrnn_multilayer.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/nn/ctrnn_multilayer.cpp
 ctrnn_multilayer.h
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/nn/ctrnn_multilayer.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/nn/ctrnn_multilayer.h
 cmath
 -
 fstream
@@ -34,31 +34,31 @@ fstream
 argos3/core/utility/string_utilities.h
 -
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/nn/ctrnn_multilayer.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/nn/ctrnn_multilayer.h
 neural_network.h
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/nn/neural_network.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/nn/neural_network.h
 argos3/core/utility/math/range.h
 -
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/nn/neural_network.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/nn/neural_network.cpp
 neural_network.h
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/nn/neural_network.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/nn/neural_network.h
 argos3/core/utility/string_utilities.h
 -
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/nn/neural_network.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/nn/neural_network.h
 argos3/core/control_interface/ci_controller.h
 -
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/nn/perceptron.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/nn/perceptron.cpp
 perceptron.h
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/nn/perceptron.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/nn/perceptron.h
 fstream
 -
 cmath
 -
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/nn/perceptron.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/nn/perceptron.h
 neural_network.h
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn/nn/neural_network.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn/nn/neural_network.h
 

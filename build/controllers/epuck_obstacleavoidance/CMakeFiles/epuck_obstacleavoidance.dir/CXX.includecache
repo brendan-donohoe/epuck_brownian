@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/epuck_obstacleavoidance/epuck_obstacleavoidance_automoc.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/epuck_obstacleavoidance/epuck_obstacleavoidance_automoc.cpp
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/epuck_obstacleavoidance/epuck_obstacleavoidance.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/epuck_obstacleavoidance/epuck_obstacleavoidance.cpp
 epuck_obstacleavoidance.h
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/epuck_obstacleavoidance/epuck_obstacleavoidance.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/epuck_obstacleavoidance/epuck_obstacleavoidance.h
 argos3/core/utility/configuration/argos_configuration.h
 -
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/epuck_obstacleavoidance/epuck_obstacleavoidance.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/epuck_obstacleavoidance/epuck_obstacleavoidance.h
 argos3/core/control_interface/ci_controller.h
 -
 argos3/plugins/robots/generic/control_interface/ci_differential_steering_actuator.h

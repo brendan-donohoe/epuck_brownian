@@ -93,6 +93,8 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
                break;
     case 'p' : failure_type = POWER_FAILURE;
                break;
+    case 'm' : failure_type = MOTOR_FAILURE;
+               break;
     default  : std::cout << "ERROR: UNKNOWN FAILURE TYPE";
   }
 
@@ -147,6 +149,9 @@ void CEPuckBrownian::ControlStep()
                          break;
     case SENSOR_FAILURE: SensorFailureStep();
                          break;
+
+    case MOTOR_FAILURE : MotorFailureStep();
+                          break;
     default            : std::cout << "ERROR: UNKNOWN FAILURE TYPE";
   }
 
@@ -369,6 +374,43 @@ void CEPuckBrownian::SensorFailureStep()
   
   m_pcWheels->SetLinearVelocity(random_turn, 0.0);
 }
+
+void CEPuckBrownian::MotorFailureStep()
+{
+  /*
+   * This robot has experienced motor failure. 
+   */
+
+  int type = 1;
+  bool right = false; // is right turn possible?
+
+  if (type == 1)
+  {
+    // if only one motor is not working, the robot can still turn.
+
+    if (right)
+    {
+      // only right turn is posible (left motor only working)
+      m_pcWheels->SetLinearVelocity(m_fWheelVelocity, 0.00);
+     
+    }
+
+    else
+    {
+      // only left turn is possible(right motor only working)
+      m_pcWheels->SetLinearVelocity(0.00,m_fWheelVelocity);
+    
+     }
+  }
+
+  else if (type == 2)
+  {
+    // if both motors are not working then the robot will just stop;
+     m_pcWheels->SetLinearVelocity(0.0,0.0);
+  }
+  
+}
+
 
 void CEPuckBrownian::Destroy() {
   std::cout << "Destroy() called" << std::endl;

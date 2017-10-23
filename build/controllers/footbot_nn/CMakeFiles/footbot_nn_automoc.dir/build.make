@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/germainesy/Documents/cs491/epuck_brownian
+CMAKE_SOURCE_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
+CMAKE_BINARY_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian/build
 
 # Utility rule file for footbot_nn_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
 include controllers/footbot_nn/CMakeFiles/footbot_nn_automoc.dir/progress.make
 
 controllers/footbot_nn/CMakeFiles/footbot_nn_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target footbot_nn"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_nn && /usr/bin/cmake -E cmake_autogen /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_nn/CMakeFiles/footbot_nn_automoc.dir/ ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target footbot_nn"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_nn && /usr/bin/cmake -E cmake_autogen /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_nn/CMakeFiles/footbot_nn_automoc.dir/ Release
 
 footbot_nn_automoc: controllers/footbot_nn/CMakeFiles/footbot_nn_automoc
 footbot_nn_automoc: controllers/footbot_nn/CMakeFiles/footbot_nn_automoc.dir/build.make
@@ -68,10 +68,10 @@ controllers/footbot_nn/CMakeFiles/footbot_nn_automoc.dir/build: footbot_nn_autom
 .PHONY : controllers/footbot_nn/CMakeFiles/footbot_nn_automoc.dir/build
 
 controllers/footbot_nn/CMakeFiles/footbot_nn_automoc.dir/clean:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_nn && $(CMAKE_COMMAND) -P CMakeFiles/footbot_nn_automoc.dir/cmake_clean.cmake
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_nn && $(CMAKE_COMMAND) -P CMakeFiles/footbot_nn_automoc.dir/cmake_clean.cmake
 .PHONY : controllers/footbot_nn/CMakeFiles/footbot_nn_automoc.dir/clean
 
 controllers/footbot_nn/CMakeFiles/footbot_nn_automoc.dir/depend:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/germainesy/Documents/cs491/epuck_brownian /home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_nn /home/germainesy/Documents/cs491/epuck_brownian/build /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_nn /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_nn/CMakeFiles/footbot_nn_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aakash/Documents/CS491/trial/epuck_brownian /home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_nn /home/aakash/Documents/CS491/trial/epuck_brownian/build /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_nn /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_nn/CMakeFiles/footbot_nn_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : controllers/footbot_nn/CMakeFiles/footbot_nn_automoc.dir/depend
 

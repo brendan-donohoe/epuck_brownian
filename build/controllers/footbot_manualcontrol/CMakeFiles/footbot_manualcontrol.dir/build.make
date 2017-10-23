@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/germainesy/Documents/cs491/epuck_brownian
+CMAKE_SOURCE_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
+CMAKE_BINARY_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian/build
 
 # Include any dependencies generated for this target.
 include controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/depend.make
@@ -59,16 +59,16 @@ include controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/f
 
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.o: controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/flags.make
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.o: ../controllers/footbot_manualcontrol/footbot_manualcontrol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.o"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.o -c /home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_manualcontrol/footbot_manualcontrol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.o"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.o -c /home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_manualcontrol/footbot_manualcontrol.cpp
 
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.i"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_manualcontrol/footbot_manualcontrol.cpp > CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_manualcontrol/footbot_manualcontrol.cpp > CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.i
 
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.s"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_manualcontrol/footbot_manualcontrol.cpp -o CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_manualcontrol/footbot_manualcontrol.cpp -o CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.s
 
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol.cpp.o.requires:
 
@@ -83,16 +83,16 @@ controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_m
 
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.o: controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/flags.make
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.o: controllers/footbot_manualcontrol/footbot_manualcontrol_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.o"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.o -c /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol/footbot_manualcontrol_automoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.o"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.o -c /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol/footbot_manualcontrol_automoc.cpp
 
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.i"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol/footbot_manualcontrol_automoc.cpp > CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol/footbot_manualcontrol_automoc.cpp > CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.i
 
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.s"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol/footbot_manualcontrol_automoc.cpp -o CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol/footbot_manualcontrol_automoc.cpp -o CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.s
 
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.o.requires:
 
@@ -117,8 +117,8 @@ controllers/footbot_manualcontrol/libfootbot_manualcontrol.so: controllers/footb
 controllers/footbot_manualcontrol/libfootbot_manualcontrol.so: controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/footbot_manualcontrol_automoc.cpp.o
 controllers/footbot_manualcontrol/libfootbot_manualcontrol.so: controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/build.make
 controllers/footbot_manualcontrol/libfootbot_manualcontrol.so: controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libfootbot_manualcontrol.so"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/footbot_manualcontrol.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libfootbot_manualcontrol.so"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/footbot_manualcontrol.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/build: controllers/footbot_manualcontrol/libfootbot_manualcontrol.so
@@ -131,10 +131,10 @@ controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/requires:
 .PHONY : controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/requires
 
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/clean:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol && $(CMAKE_COMMAND) -P CMakeFiles/footbot_manualcontrol.dir/cmake_clean.cmake
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol && $(CMAKE_COMMAND) -P CMakeFiles/footbot_manualcontrol.dir/cmake_clean.cmake
 .PHONY : controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/clean
 
 controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/depend:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/germainesy/Documents/cs491/epuck_brownian /home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_manualcontrol /home/germainesy/Documents/cs491/epuck_brownian/build /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aakash/Documents/CS491/trial/epuck_brownian /home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_manualcontrol /home/aakash/Documents/CS491/trial/epuck_brownian/build /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : controllers/footbot_manualcontrol/CMakeFiles/footbot_manualcontrol.dir/depend
 

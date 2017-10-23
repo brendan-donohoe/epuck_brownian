@@ -89,7 +89,7 @@
     </distribute>
 
     <!--
-        ...and one robot that will experience power failure (id="p") in the same
+        ...and one robot that will experience motor failure (id="m") in the same
         region.
     -->
     <distribute>

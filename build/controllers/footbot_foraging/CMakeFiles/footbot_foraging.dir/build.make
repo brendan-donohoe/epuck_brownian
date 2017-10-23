@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/germainesy/Documents/cs491/epuck_brownian
+CMAKE_SOURCE_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
+CMAKE_BINARY_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian/build
 
 # Include any dependencies generated for this target.
 include controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/depend.make
@@ -59,16 +59,16 @@ include controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/flags.make
 
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.o: controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/flags.make
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.o: ../controllers/footbot_foraging/footbot_foraging.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.o"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.o -c /home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_foraging/footbot_foraging.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.o"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.o -c /home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_foraging/footbot_foraging.cpp
 
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.i"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_foraging/footbot_foraging.cpp > CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_foraging/footbot_foraging.cpp > CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.i
 
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.s"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_foraging/footbot_foraging.cpp -o CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_foraging/footbot_foraging.cpp -o CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.s
 
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging.cpp.o.requires:
 
@@ -83,16 +83,16 @@ controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging.cp
 
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.o: controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/flags.make
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.o: controllers/footbot_foraging/footbot_foraging_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.o"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.o -c /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging/footbot_foraging_automoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.o"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.o -c /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging/footbot_foraging_automoc.cpp
 
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.i"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging/footbot_foraging_automoc.cpp > CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging/footbot_foraging_automoc.cpp > CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.i
 
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.s"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging/footbot_foraging_automoc.cpp -o CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging/footbot_foraging_automoc.cpp -o CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.s
 
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.o.requires:
 
@@ -117,8 +117,8 @@ controllers/footbot_foraging/libfootbot_foraging.so: controllers/footbot_foragin
 controllers/footbot_foraging/libfootbot_foraging.so: controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/footbot_foraging_automoc.cpp.o
 controllers/footbot_foraging/libfootbot_foraging.so: controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/build.make
 controllers/footbot_foraging/libfootbot_foraging.so: controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libfootbot_foraging.so"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/footbot_foraging.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libfootbot_foraging.so"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/footbot_foraging.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/build: controllers/footbot_foraging/libfootbot_foraging.so
@@ -131,10 +131,10 @@ controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/requires: controlle
 .PHONY : controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/requires
 
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/clean:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging && $(CMAKE_COMMAND) -P CMakeFiles/footbot_foraging.dir/cmake_clean.cmake
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging && $(CMAKE_COMMAND) -P CMakeFiles/footbot_foraging.dir/cmake_clean.cmake
 .PHONY : controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/clean
 
 controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/depend:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/germainesy/Documents/cs491/epuck_brownian /home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_foraging /home/germainesy/Documents/cs491/epuck_brownian/build /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aakash/Documents/CS491/trial/epuck_brownian /home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_foraging /home/aakash/Documents/CS491/trial/epuck_brownian/build /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : controllers/footbot_foraging/CMakeFiles/footbot_foraging.dir/depend
 

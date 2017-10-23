@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/germainesy/Documents/cs491/epuck_brownian
+CMAKE_SOURCE_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
+CMAKE_BINARY_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian/build
 
 # Utility rule file for epuck_mapping_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
 include controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc.dir/progress.make
 
 controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target epuck_mapping"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/epuck_mapping && /usr/bin/cmake -E cmake_autogen /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc.dir/ ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target epuck_mapping"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/epuck_mapping && /usr/bin/cmake -E cmake_autogen /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc.dir/ Release
 
 epuck_mapping_automoc: controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc
 epuck_mapping_automoc: controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc.dir/build.make
@@ -68,10 +68,10 @@ controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc.dir/build: epuck_mapp
 .PHONY : controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc.dir/build
 
 controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc.dir/clean:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/epuck_mapping && $(CMAKE_COMMAND) -P CMakeFiles/epuck_mapping_automoc.dir/cmake_clean.cmake
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/epuck_mapping && $(CMAKE_COMMAND) -P CMakeFiles/epuck_mapping_automoc.dir/cmake_clean.cmake
 .PHONY : controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc.dir/clean
 
 controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc.dir/depend:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/germainesy/Documents/cs491/epuck_brownian /home/germainesy/Documents/cs491/epuck_brownian/controllers/epuck_mapping /home/germainesy/Documents/cs491/epuck_brownian/build /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/epuck_mapping /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aakash/Documents/CS491/trial/epuck_brownian /home/aakash/Documents/CS491/trial/epuck_brownian/controllers/epuck_mapping /home/aakash/Documents/CS491/trial/epuck_brownian/build /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/epuck_mapping /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : controllers/epuck_mapping/CMakeFiles/epuck_mapping_automoc.dir/depend
 

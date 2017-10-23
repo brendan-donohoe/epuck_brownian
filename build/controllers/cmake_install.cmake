@@ -1,4 +1,4 @@
-# Install script for directory: /home/germainesy/Documents/cs491/epuck_brownian/controllers
+# Install script for directory: /home/aakash/Documents/CS491/trial/epuck_brownian/controllers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -34,18 +34,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_diffusion/cmake_install.cmake")
-  include("/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_synchronization/cmake_install.cmake")
-  include("/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_flocking/cmake_install.cmake")
-  include("/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_gripping/cmake_install.cmake")
-  include("/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_foraging/cmake_install.cmake")
-  include("/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_manualcontrol/cmake_install.cmake")
-  include("/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_nn/cmake_install.cmake")
-  include("/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/eyebot_circle/cmake_install.cmake")
-  include("/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/eyebot_flocking/cmake_install.cmake")
-  include("/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/epuck_obstacleavoidance/cmake_install.cmake")
-  include("/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/epuck_mapping/cmake_install.cmake")
-  include("/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/epuck_brownian/cmake_install.cmake")
+  include("/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_diffusion/cmake_install.cmake")
+  include("/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_synchronization/cmake_install.cmake")
+  include("/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_flocking/cmake_install.cmake")
+  include("/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_gripping/cmake_install.cmake")
+  include("/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_foraging/cmake_install.cmake")
+  include("/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_manualcontrol/cmake_install.cmake")
+  include("/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_nn/cmake_install.cmake")
+  include("/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/eyebot_circle/cmake_install.cmake")
+  include("/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/eyebot_flocking/cmake_install.cmake")
+  include("/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/epuck_obstacleavoidance/cmake_install.cmake")
+  include("/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/epuck_mapping/cmake_install.cmake")
+  include("/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/epuck_brownian/cmake_install.cmake")
 
 endif()
 

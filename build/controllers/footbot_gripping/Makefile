@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/germainesy/Documents/cs491/epuck_brownian
+CMAKE_SOURCE_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
+CMAKE_BINARY_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_gripping/CMakeFiles/progress.marks
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 controllers/footbot_gripping/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles 0
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_gripping/CMakeFiles/progress.marks
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 controllers/footbot_gripping/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 controllers/footbot_gripping/clean
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 controllers/footbot_gripping/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 controllers/footbot_gripping/preinstall
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 controllers/footbot_gripping/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 controllers/footbot_gripping/preinstall
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 controllers/footbot_gripping/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/rule:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/rule
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/rule
 .PHONY : controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ footbot_gripping: controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/r
 
 # fast build rule for target.
 footbot_gripping/fast:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build
 .PHONY : footbot_gripping/fast
 
 # Convenience name for target.
 controllers/footbot_gripping/CMakeFiles/footbot_gripping_automoc.dir/rule:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 controllers/footbot_gripping/CMakeFiles/footbot_gripping_automoc.dir/rule
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 controllers/footbot_gripping/CMakeFiles/footbot_gripping_automoc.dir/rule
 .PHONY : controllers/footbot_gripping/CMakeFiles/footbot_gripping_automoc.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ footbot_gripping_automoc: controllers/footbot_gripping/CMakeFiles/footbot_grippi
 
 # fast build rule for target.
 footbot_gripping_automoc/fast:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping_automoc.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping_automoc.dir/build
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping_automoc.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping_automoc.dir/build
 .PHONY : footbot_gripping_automoc/fast
 
 footbot_gripping.o: footbot_gripping.cpp.o
@@ -146,7 +146,7 @@ footbot_gripping.o: footbot_gripping.cpp.o
 
 # target to build an object file
 footbot_gripping.cpp.o:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/footbot_gripping.cpp.o
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/footbot_gripping.cpp.o
 .PHONY : footbot_gripping.cpp.o
 
 footbot_gripping.i: footbot_gripping.cpp.i
@@ -155,7 +155,7 @@ footbot_gripping.i: footbot_gripping.cpp.i
 
 # target to preprocess a source file
 footbot_gripping.cpp.i:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/footbot_gripping.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/footbot_gripping.cpp.i
 .PHONY : footbot_gripping.cpp.i
 
 footbot_gripping.s: footbot_gripping.cpp.s
@@ -164,7 +164,7 @@ footbot_gripping.s: footbot_gripping.cpp.s
 
 # target to generate assembly for a file
 footbot_gripping.cpp.s:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/footbot_gripping.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/footbot_gripping.cpp.s
 .PHONY : footbot_gripping.cpp.s
 
 footbot_gripping_automoc.o: footbot_gripping_automoc.cpp.o
@@ -173,7 +173,7 @@ footbot_gripping_automoc.o: footbot_gripping_automoc.cpp.o
 
 # target to build an object file
 footbot_gripping_automoc.cpp.o:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/footbot_gripping_automoc.cpp.o
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/footbot_gripping_automoc.cpp.o
 .PHONY : footbot_gripping_automoc.cpp.o
 
 footbot_gripping_automoc.i: footbot_gripping_automoc.cpp.i
@@ -182,7 +182,7 @@ footbot_gripping_automoc.i: footbot_gripping_automoc.cpp.i
 
 # target to preprocess a source file
 footbot_gripping_automoc.cpp.i:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/footbot_gripping_automoc.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/footbot_gripping_automoc.cpp.i
 .PHONY : footbot_gripping_automoc.cpp.i
 
 footbot_gripping_automoc.s: footbot_gripping_automoc.cpp.s
@@ -191,7 +191,7 @@ footbot_gripping_automoc.s: footbot_gripping_automoc.cpp.s
 
 # target to generate assembly for a file
 footbot_gripping_automoc.cpp.s:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/footbot_gripping_automoc.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/build.make controllers/footbot_gripping/CMakeFiles/footbot_gripping.dir/footbot_gripping_automoc.cpp.s
 .PHONY : footbot_gripping_automoc.cpp.s
 
 # Help Target
@@ -221,6 +221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

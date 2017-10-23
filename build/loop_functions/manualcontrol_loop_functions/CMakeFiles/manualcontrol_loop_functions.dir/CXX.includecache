@@ -16,17 +16,17 @@ argos3/plugins/robots/generic/control_interface/ci_leds_actuator.h
 argos3/core/utility/math/vector2.h
 -
 
-/home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/manualcontrol_loop_functions/manualcontrol_loop_functions_automoc.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/manualcontrol_loop_functions/manualcontrol_loop_functions_automoc.cpp
 
-/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/manualcontrol_loop_functions/manualcontrol_qtuser_functions.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/loop_functions/manualcontrol_loop_functions/manualcontrol_qtuser_functions.cpp
 manualcontrol_qtuser_functions.h
-/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/manualcontrol_loop_functions/manualcontrol_qtuser_functions.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/loop_functions/manualcontrol_loop_functions/manualcontrol_qtuser_functions.h
 argos3/plugins/robots/foot-bot/simulator/footbot_entity.h
 -
 QKeyEvent
 -
 
-/home/germainesy/Documents/cs491/epuck_brownian/loop_functions/manualcontrol_loop_functions/manualcontrol_qtuser_functions.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/loop_functions/manualcontrol_loop_functions/manualcontrol_qtuser_functions.h
 argos3/plugins/simulator/visualizations/qt-opengl/qtopengl_user_functions.h
 -
 controllers/footbot_manualcontrol/footbot_manualcontrol.h

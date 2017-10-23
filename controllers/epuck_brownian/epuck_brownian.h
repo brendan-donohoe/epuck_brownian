@@ -102,6 +102,8 @@ private:
 
   void SensorFailureStep();
 
+  void MotorFailureStep();
+
 private:
 
   /* Pointer to the differential steering actuator */

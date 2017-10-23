@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/germainesy/Documents/cs491/epuck_brownian
+CMAKE_SOURCE_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
+CMAKE_BINARY_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian/build
 
 # Utility rule file for mpga_phototaxis_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
 include embedding/mpga/CMakeFiles/mpga_phototaxis_automoc.dir/progress.make
 
 embedding/mpga/CMakeFiles/mpga_phototaxis_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target mpga_phototaxis"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/embedding/mpga && /usr/bin/cmake -E cmake_autogen /home/germainesy/Documents/cs491/epuck_brownian/build/embedding/mpga/CMakeFiles/mpga_phototaxis_automoc.dir/ ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target mpga_phototaxis"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/embedding/mpga && /usr/bin/cmake -E cmake_autogen /home/aakash/Documents/CS491/trial/epuck_brownian/build/embedding/mpga/CMakeFiles/mpga_phototaxis_automoc.dir/ Release
 
 mpga_phototaxis_automoc: embedding/mpga/CMakeFiles/mpga_phototaxis_automoc
 mpga_phototaxis_automoc: embedding/mpga/CMakeFiles/mpga_phototaxis_automoc.dir/build.make
@@ -68,10 +68,10 @@ embedding/mpga/CMakeFiles/mpga_phototaxis_automoc.dir/build: mpga_phototaxis_aut
 .PHONY : embedding/mpga/CMakeFiles/mpga_phototaxis_automoc.dir/build
 
 embedding/mpga/CMakeFiles/mpga_phototaxis_automoc.dir/clean:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/embedding/mpga && $(CMAKE_COMMAND) -P CMakeFiles/mpga_phototaxis_automoc.dir/cmake_clean.cmake
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/embedding/mpga && $(CMAKE_COMMAND) -P CMakeFiles/mpga_phototaxis_automoc.dir/cmake_clean.cmake
 .PHONY : embedding/mpga/CMakeFiles/mpga_phototaxis_automoc.dir/clean
 
 embedding/mpga/CMakeFiles/mpga_phototaxis_automoc.dir/depend:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/germainesy/Documents/cs491/epuck_brownian /home/germainesy/Documents/cs491/epuck_brownian/embedding/mpga /home/germainesy/Documents/cs491/epuck_brownian/build /home/germainesy/Documents/cs491/epuck_brownian/build/embedding/mpga /home/germainesy/Documents/cs491/epuck_brownian/build/embedding/mpga/CMakeFiles/mpga_phototaxis_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aakash/Documents/CS491/trial/epuck_brownian /home/aakash/Documents/CS491/trial/epuck_brownian/embedding/mpga /home/aakash/Documents/CS491/trial/epuck_brownian/build /home/aakash/Documents/CS491/trial/epuck_brownian/build/embedding/mpga /home/aakash/Documents/CS491/trial/epuck_brownian/build/embedding/mpga/CMakeFiles/mpga_phototaxis_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : embedding/mpga/CMakeFiles/mpga_phototaxis_automoc.dir/depend
 

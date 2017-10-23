@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/germainesy/Documents/cs491/epuck_brownian
+CMAKE_SOURCE_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
+CMAKE_BINARY_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian/build
 
 # Utility rule file for mpga_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
 include loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/progress.make
 
 loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target mpga"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/mpga_loop_functions && /usr/bin/cmake -E cmake_autogen /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/ ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target mpga"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/mpga_loop_functions && /usr/bin/cmake -E cmake_autogen /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/ Release
 
 mpga_automoc: loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc
 mpga_automoc: loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/build.make
@@ -68,10 +68,10 @@ loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/build: mpga_autom
 .PHONY : loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/build
 
 loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/clean:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/mpga_loop_functions && $(CMAKE_COMMAND) -P CMakeFiles/mpga_automoc.dir/cmake_clean.cmake
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/mpga_loop_functions && $(CMAKE_COMMAND) -P CMakeFiles/mpga_automoc.dir/cmake_clean.cmake
 .PHONY : loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/clean
 
 loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/depend:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/germainesy/Documents/cs491/epuck_brownian /home/germainesy/Documents/cs491/epuck_brownian/loop_functions/mpga_loop_functions /home/germainesy/Documents/cs491/epuck_brownian/build /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/mpga_loop_functions /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aakash/Documents/CS491/trial/epuck_brownian /home/aakash/Documents/CS491/trial/epuck_brownian/loop_functions/mpga_loop_functions /home/aakash/Documents/CS491/trial/epuck_brownian/build /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/mpga_loop_functions /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : loop_functions/mpga_loop_functions/CMakeFiles/mpga_automoc.dir/depend
 

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_synchronization/footbot_synchronization_automoc.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_synchronization/footbot_synchronization_automoc.cpp
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_synchronization/footbot_synchronization.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_synchronization/footbot_synchronization.cpp
 footbot_synchronization.h
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_synchronization/footbot_synchronization.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_synchronization/footbot_synchronization.h
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_synchronization/footbot_synchronization.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_synchronization/footbot_synchronization.h
 argos3/core/control_interface/ci_controller.h
 -
 argos3/plugins/robots/generic/control_interface/ci_leds_actuator.h

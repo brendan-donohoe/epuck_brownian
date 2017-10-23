@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/germainesy/Documents/cs491/epuck_brownian
+CMAKE_SOURCE_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
+CMAKE_BINARY_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian/build
 
 # Include any dependencies generated for this target.
 include loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/depend.make
@@ -59,16 +59,16 @@ include loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_function
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.o: loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/flags.make
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.o: ../loop_functions/foraging_loop_functions/foraging_loop_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.o"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.o -c /home/germainesy/Documents/cs491/epuck_brownian/loop_functions/foraging_loop_functions/foraging_loop_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.o"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.o -c /home/aakash/Documents/CS491/trial/epuck_brownian/loop_functions/foraging_loop_functions/foraging_loop_functions.cpp
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.i"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/germainesy/Documents/cs491/epuck_brownian/loop_functions/foraging_loop_functions/foraging_loop_functions.cpp > CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aakash/Documents/CS491/trial/epuck_brownian/loop_functions/foraging_loop_functions/foraging_loop_functions.cpp > CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.i
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.s"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/germainesy/Documents/cs491/epuck_brownian/loop_functions/foraging_loop_functions/foraging_loop_functions.cpp -o CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aakash/Documents/CS491/trial/epuck_brownian/loop_functions/foraging_loop_functions/foraging_loop_functions.cpp -o CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.s
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions.cpp.o.requires:
 
@@ -83,16 +83,16 @@ loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/fo
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.o: loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/flags.make
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.o: ../loop_functions/foraging_loop_functions/foraging_qt_user_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.o"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.o -c /home/germainesy/Documents/cs491/epuck_brownian/loop_functions/foraging_loop_functions/foraging_qt_user_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.o"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.o -c /home/aakash/Documents/CS491/trial/epuck_brownian/loop_functions/foraging_loop_functions/foraging_qt_user_functions.cpp
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.i"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/germainesy/Documents/cs491/epuck_brownian/loop_functions/foraging_loop_functions/foraging_qt_user_functions.cpp > CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aakash/Documents/CS491/trial/epuck_brownian/loop_functions/foraging_loop_functions/foraging_qt_user_functions.cpp > CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.i
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.s"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/germainesy/Documents/cs491/epuck_brownian/loop_functions/foraging_loop_functions/foraging_qt_user_functions.cpp -o CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aakash/Documents/CS491/trial/epuck_brownian/loop_functions/foraging_loop_functions/foraging_qt_user_functions.cpp -o CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.s
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_qt_user_functions.cpp.o.requires:
 
@@ -107,16 +107,16 @@ loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/fo
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.o: loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/flags.make
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.o: loop_functions/foraging_loop_functions/foraging_loop_functions_automoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.o"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.o -c /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions/foraging_loop_functions_automoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.o"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.o -c /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions/foraging_loop_functions_automoc.cpp
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.i"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions/foraging_loop_functions_automoc.cpp > CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions/foraging_loop_functions_automoc.cpp > CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.i
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.s"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions/foraging_loop_functions_automoc.cpp -o CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions/foraging_loop_functions_automoc.cpp -o CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.s
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/foraging_loop_functions_automoc.cpp.o.requires:
 
@@ -144,8 +144,8 @@ loop_functions/foraging_loop_functions/libforaging_loop_functions.so: loop_funct
 loop_functions/foraging_loop_functions/libforaging_loop_functions.so: loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/build.make
 loop_functions/foraging_loop_functions/libforaging_loop_functions.so: controllers/footbot_foraging/libfootbot_foraging.so
 loop_functions/foraging_loop_functions/libforaging_loop_functions.so: loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared module libforaging_loop_functions.so"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/foraging_loop_functions.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared module libforaging_loop_functions.so"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/foraging_loop_functions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/build: loop_functions/foraging_loop_functions/libforaging_loop_functions.so
@@ -159,10 +159,10 @@ loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/re
 .PHONY : loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/requires
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/clean:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions && $(CMAKE_COMMAND) -P CMakeFiles/foraging_loop_functions.dir/cmake_clean.cmake
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions && $(CMAKE_COMMAND) -P CMakeFiles/foraging_loop_functions.dir/cmake_clean.cmake
 .PHONY : loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/clean
 
 loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/depend:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/germainesy/Documents/cs491/epuck_brownian /home/germainesy/Documents/cs491/epuck_brownian/loop_functions/foraging_loop_functions /home/germainesy/Documents/cs491/epuck_brownian/build /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aakash/Documents/CS491/trial/epuck_brownian /home/aakash/Documents/CS491/trial/epuck_brownian/loop_functions/foraging_loop_functions /home/aakash/Documents/CS491/trial/epuck_brownian/build /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : loop_functions/foraging_loop_functions/CMakeFiles/foraging_loop_functions.dir/depend
 

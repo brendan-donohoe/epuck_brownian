@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_diffusion/footbot_diffusion_automoc.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_diffusion/footbot_diffusion_automoc.cpp
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_diffusion/footbot_diffusion.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_diffusion/footbot_diffusion.cpp
 footbot_diffusion.h
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_diffusion/footbot_diffusion.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_diffusion/footbot_diffusion.h
 argos3/core/utility/configuration/argos_configuration.h
 -
 argos3/core/utility/math/vector2.h
 -
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_diffusion/footbot_diffusion.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_diffusion/footbot_diffusion.h
 argos3/core/control_interface/ci_controller.h
 -
 argos3/plugins/robots/generic/control_interface/ci_differential_steering_actuator.h

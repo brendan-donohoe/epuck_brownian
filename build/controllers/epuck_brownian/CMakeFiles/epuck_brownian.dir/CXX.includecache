@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/germainesy/Documents/cs491/epuck_brownian/build/controllers/epuck_brownian/epuck_brownian_automoc.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/epuck_brownian/epuck_brownian_automoc.cpp
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/epuck_brownian/epuck_brownian.cpp
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/epuck_brownian/epuck_brownian.cpp
 epuck_brownian.h
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/epuck_brownian/epuck_brownian.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/epuck_brownian/epuck_brownian.h
 argos3/core/utility/configuration/argos_configuration.h
 -
 argos3/core/utility/logging/argos_log.h
@@ -26,7 +26,7 @@ fstream
 iostream
 -
 
-/home/germainesy/Documents/cs491/epuck_brownian/controllers/epuck_brownian/epuck_brownian.h
+/home/aakash/Documents/CS491/trial/epuck_brownian/controllers/epuck_brownian/epuck_brownian.h
 argos3/core/control_interface/ci_controller.h
 -
 argos3/plugins/robots/generic/control_interface/ci_differential_steering_actuator.h

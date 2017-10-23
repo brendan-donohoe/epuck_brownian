@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/germainesy/Documents/cs491/epuck_brownian
+CMAKE_SOURCE_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
+CMAKE_BINARY_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian/build
 
 # Utility rule file for footbot_flocking_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
 include controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc.dir/progress.make
 
 controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target footbot_flocking"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_flocking && /usr/bin/cmake -E cmake_autogen /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc.dir/ ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target footbot_flocking"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_flocking && /usr/bin/cmake -E cmake_autogen /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc.dir/ Release
 
 footbot_flocking_automoc: controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc
 footbot_flocking_automoc: controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc.dir/build.make
@@ -68,10 +68,10 @@ controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc.dir/build: foot
 .PHONY : controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc.dir/build
 
 controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc.dir/clean:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_flocking && $(CMAKE_COMMAND) -P CMakeFiles/footbot_flocking_automoc.dir/cmake_clean.cmake
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_flocking && $(CMAKE_COMMAND) -P CMakeFiles/footbot_flocking_automoc.dir/cmake_clean.cmake
 .PHONY : controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc.dir/clean
 
 controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc.dir/depend:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/germainesy/Documents/cs491/epuck_brownian /home/germainesy/Documents/cs491/epuck_brownian/controllers/footbot_flocking /home/germainesy/Documents/cs491/epuck_brownian/build /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_flocking /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aakash/Documents/CS491/trial/epuck_brownian /home/aakash/Documents/CS491/trial/epuck_brownian/controllers/footbot_flocking /home/aakash/Documents/CS491/trial/epuck_brownian/build /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_flocking /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : controllers/footbot_flocking/CMakeFiles/footbot_flocking_automoc.dir/depend
 

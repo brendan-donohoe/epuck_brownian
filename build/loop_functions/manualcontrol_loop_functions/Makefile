@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/germainesy/Documents/cs491/epuck_brownian
+CMAKE_SOURCE_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
+CMAKE_BINARY_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles /home/germainesy/Documents/cs491/epuck_brownian/build/loop_functions/manualcontrol_loop_functions/CMakeFiles/progress.marks
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/manualcontrol_loop_functions/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles 0
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles /home/aakash/Documents/CS491/trial/epuck_brownian/build/loop_functions/manualcontrol_loop_functions/CMakeFiles/progress.marks
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/manualcontrol_loop_functions/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/manualcontrol_loop_functions/clean
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/manualcontrol_loop_functions/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/manualcontrol_loop_functions/preinstall
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/manualcontrol_loop_functions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/manualcontrol_loop_functions/preinstall
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/manualcontrol_loop_functions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/rule:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/rule
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/rule
 .PHONY : loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ manualcontrol_loop_functions: loop_functions/manualcontrol_loop_functions/CMakeF
 
 # fast build rule for target.
 manualcontrol_loop_functions/fast:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build
 .PHONY : manualcontrol_loop_functions/fast
 
 # Convenience name for target.
 loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions_automoc.dir/rule:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions_automoc.dir/rule
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f CMakeFiles/Makefile2 loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions_automoc.dir/rule
 .PHONY : loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions_automoc.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ manualcontrol_loop_functions_automoc: loop_functions/manualcontrol_loop_function
 
 # fast build rule for target.
 manualcontrol_loop_functions_automoc/fast:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions_automoc.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions_automoc.dir/build
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions_automoc.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions_automoc.dir/build
 .PHONY : manualcontrol_loop_functions_automoc/fast
 
 manualcontrol_loop_functions_automoc.o: manualcontrol_loop_functions_automoc.cpp.o
@@ -146,7 +146,7 @@ manualcontrol_loop_functions_automoc.o: manualcontrol_loop_functions_automoc.cpp
 
 # target to build an object file
 manualcontrol_loop_functions_automoc.cpp.o:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/manualcontrol_loop_functions_automoc.cpp.o
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/manualcontrol_loop_functions_automoc.cpp.o
 .PHONY : manualcontrol_loop_functions_automoc.cpp.o
 
 manualcontrol_loop_functions_automoc.i: manualcontrol_loop_functions_automoc.cpp.i
@@ -155,7 +155,7 @@ manualcontrol_loop_functions_automoc.i: manualcontrol_loop_functions_automoc.cpp
 
 # target to preprocess a source file
 manualcontrol_loop_functions_automoc.cpp.i:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/manualcontrol_loop_functions_automoc.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/manualcontrol_loop_functions_automoc.cpp.i
 .PHONY : manualcontrol_loop_functions_automoc.cpp.i
 
 manualcontrol_loop_functions_automoc.s: manualcontrol_loop_functions_automoc.cpp.s
@@ -164,7 +164,7 @@ manualcontrol_loop_functions_automoc.s: manualcontrol_loop_functions_automoc.cpp
 
 # target to generate assembly for a file
 manualcontrol_loop_functions_automoc.cpp.s:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/manualcontrol_loop_functions_automoc.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/manualcontrol_loop_functions_automoc.cpp.s
 .PHONY : manualcontrol_loop_functions_automoc.cpp.s
 
 manualcontrol_qtuser_functions.o: manualcontrol_qtuser_functions.cpp.o
@@ -173,7 +173,7 @@ manualcontrol_qtuser_functions.o: manualcontrol_qtuser_functions.cpp.o
 
 # target to build an object file
 manualcontrol_qtuser_functions.cpp.o:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/manualcontrol_qtuser_functions.cpp.o
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/manualcontrol_qtuser_functions.cpp.o
 .PHONY : manualcontrol_qtuser_functions.cpp.o
 
 manualcontrol_qtuser_functions.i: manualcontrol_qtuser_functions.cpp.i
@@ -182,7 +182,7 @@ manualcontrol_qtuser_functions.i: manualcontrol_qtuser_functions.cpp.i
 
 # target to preprocess a source file
 manualcontrol_qtuser_functions.cpp.i:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/manualcontrol_qtuser_functions.cpp.i
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/manualcontrol_qtuser_functions.cpp.i
 .PHONY : manualcontrol_qtuser_functions.cpp.i
 
 manualcontrol_qtuser_functions.s: manualcontrol_qtuser_functions.cpp.s
@@ -191,7 +191,7 @@ manualcontrol_qtuser_functions.s: manualcontrol_qtuser_functions.cpp.s
 
 # target to generate assembly for a file
 manualcontrol_qtuser_functions.cpp.s:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/manualcontrol_qtuser_functions.cpp.s
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(MAKE) -f loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/build.make loop_functions/manualcontrol_loop_functions/CMakeFiles/manualcontrol_loop_functions.dir/manualcontrol_qtuser_functions.cpp.s
 .PHONY : manualcontrol_qtuser_functions.cpp.s
 
 # Help Target
@@ -221,6 +221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

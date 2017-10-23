@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/germainesy/Documents/cs491/epuck_brownian
+CMAKE_SOURCE_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
+CMAKE_BINARY_DIR = /home/aakash/Documents/CS491/trial/epuck_brownian/build
 
 # Utility rule file for eyebot_flocking_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/germainesy/Documents/cs491/epuck_brownian/build
 include controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc.dir/progress.make
 
 controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/germainesy/Documents/cs491/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target eyebot_flocking"
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/eyebot_flocking && /usr/bin/cmake -E cmake_autogen /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc.dir/ ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aakash/Documents/CS491/trial/epuck_brownian/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target eyebot_flocking"
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/eyebot_flocking && /usr/bin/cmake -E cmake_autogen /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc.dir/ Release
 
 eyebot_flocking_automoc: controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc
 eyebot_flocking_automoc: controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc.dir/build.make
@@ -68,10 +68,10 @@ controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc.dir/build: eyebot
 .PHONY : controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc.dir/build
 
 controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc.dir/clean:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/eyebot_flocking && $(CMAKE_COMMAND) -P CMakeFiles/eyebot_flocking_automoc.dir/cmake_clean.cmake
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/eyebot_flocking && $(CMAKE_COMMAND) -P CMakeFiles/eyebot_flocking_automoc.dir/cmake_clean.cmake
 .PHONY : controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc.dir/clean
 
 controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc.dir/depend:
-	cd /home/germainesy/Documents/cs491/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/germainesy/Documents/cs491/epuck_brownian /home/germainesy/Documents/cs491/epuck_brownian/controllers/eyebot_flocking /home/germainesy/Documents/cs491/epuck_brownian/build /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/eyebot_flocking /home/germainesy/Documents/cs491/epuck_brownian/build/controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aakash/Documents/CS491/trial/epuck_brownian/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aakash/Documents/CS491/trial/epuck_brownian /home/aakash/Documents/CS491/trial/epuck_brownian/controllers/eyebot_flocking /home/aakash/Documents/CS491/trial/epuck_brownian/build /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/eyebot_flocking /home/aakash/Documents/CS491/trial/epuck_brownian/build/controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : controllers/eyebot_flocking/CMakeFiles/eyebot_flocking_automoc.dir/depend
 
