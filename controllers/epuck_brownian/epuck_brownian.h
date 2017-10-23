@@ -100,6 +100,8 @@ private:
   /* Step function called when robot has experienced power failure. */
   void PowerFailureStep();
 
+  void SensorFailureStep();
+
 private:
 
   /* Pointer to the differential steering actuator */
@@ -119,6 +121,8 @@ private:
   int ticks_since_last_avoidance;
   int ticks_since_start;
   int current_type;
+  int random_turn;
+  int tick_wander;
 
   /*
    * The following variables are used as parameters for the
