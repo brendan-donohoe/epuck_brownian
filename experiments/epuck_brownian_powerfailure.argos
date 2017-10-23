@@ -74,16 +74,33 @@
         from a gaussian distribution, whose mean is zero degrees and
         standard deviation is 360 degrees.
     -->
+    
+    <!--
+        We distribute nine functioning robots (id="f")...
+    -->
     <distribute>
       <position method="uniform" min="-2,-2,0" max="2,2,0" />
       <orientation method="gaussian" mean="0,0,0" std_dev="360,0,0" />
-      <entity quantity="10" max_trials="100">
+      <entity quantity="9" max_trials="100">
         <e-puck id="f" rab_range="3" rab_data_size="1">
           <controller config="fdc" />
         </e-puck>
       </entity>
     </distribute>
 
+    <!--
+        ...and one robot that will experience power failure (id="p") in the same
+        region.
+    -->
+    <distribute>
+      <position method="uniform" min="-2,-2,0" max="2,2,0" />
+      <orientation method="gaussian" mean="0,0,0" std_dev="360,0,0" />
+      <entity quantity="1" max_trials="100">
+        <e-puck id="p" rab_range="3" rab_data_size="1">
+          <controller config="fdc" />
+        </e-puck>
+      </entity>
+    </distribute>
   </arena>
 
   <!-- ******************* -->

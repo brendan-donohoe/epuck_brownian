@@ -83,6 +83,25 @@ public:
 
 private:
 
+  /* The failure cases for each robot. */
+  enum EMalfunctionType
+  {
+    FUNCTIONING = 0,
+    POWER_FAILURE,
+    SENSOR_FAILURE,
+    MOTOR_FAILURE
+  } m_eMalfunctionType;
+
+private:
+
+  /* Step function called when robot is in a functional state. */
+  void FunctioningStep();
+
+  /* Step function called when robot has experienced power failure. */
+  void PowerFailureStep();
+
+private:
+
   /* Pointer to the differential steering actuator */
   CCI_DifferentialSteeringActuator* m_pcWheels;
   /* Pointer to the e-puck proximity sensor */
@@ -96,6 +115,11 @@ private:
   /* Pointer to the range-and-bearing sensor */
   CCI_RangeAndBearingSensor* m_pcRABS;
 
+  int failure_type;
+  int ticks_since_last_avoidance;
+  int ticks_since_start;
+  int current_type;
+
   /*
    * The following variables are used as parameters for the
    * algorithm. You can set their value in the <parameters> section
@@ -105,20 +129,17 @@ private:
   /* Wheel speed. */
   Real m_fWheelVelocity;
 
-  enum EMalfunctionType
-  {
-    FUNCTIONING = 0,
-    POWER_FAILURE,
-    SENSOR_FAILURE,
-    MOTOR_FAILURE
-  } m_eMalfunctionType;
-
+  /* Avoidance radius if beacon sensor is NOT activated. */
   double avoid_radius_init;
+  /* Avoidance radius if beacon sensor is activated. */
   double avoid_radius_light;
 
+  /* Time a robot can go without undergoing an avoidance maneuver before
+     returning to the center of the swarm. */
   int omega_ticks;
-
-  int ticks_since_last_avoidance;
+  /* Time from the start of the simulation until a robot experiences its
+     corresponding "failure".  Unused for a functional robot. */
+  int ticks_to_failure;
 };
 
 #endif
