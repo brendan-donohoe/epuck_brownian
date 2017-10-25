@@ -105,6 +105,8 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
   ticks_since_last_avoidance = 0;
   ticks_since_start = 0;
   
+  printed_result = false;
+
   /*
    * Until ticks_to_failure seconds elapse, function normally, and let the other
    * robots know that we are functioning normally.
@@ -166,6 +168,15 @@ void CEPuckBrownian::ControlStep()
 
 void CEPuckBrownian::FunctioningStep()
 {
+  float x = m_pcPosition->GetReading().Position.GetX();
+  float y = m_pcPosition->GetReading().Position.GetY();
+
+  if (((x - light_x) * (x - light_x) + (y - light_y) * (y - light_y) < 0.01) && !printed_result)
+  {
+    std::cout << "id=" << GetId() << ";t="<< ticks_since_start / 10.0 << ";" << std::endl;
+    printed_result = true;
+  }
+
   /*
    * First, determine the radius of avoidance of our current robot, which
    * depends on whether or not we detect light from the beacon source.

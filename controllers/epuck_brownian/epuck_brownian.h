@@ -125,6 +125,7 @@ private:
   int current_type;
   int random_turn;
   int tick_wander;
+  bool printed_result;
 
   /*
    * The following variables are used as parameters for the
