@@ -32,10 +32,12 @@
         <range_and_bearing implementation="medium" medium="rab" show_rays="false" />
       </sensors>
       <params velocity="5"
-          avoid_radius_init="5.0"
-          avoid_radius_light="10.0"
+          avoid_radius_init="10.0"
+          avoid_radius_light="20.0"
           omega_ticks="25"
-          ticks_to_failure="600" />
+          ticks_to_failure="600"
+          light_x="3.6"
+          light_y="0"/>
     </epuck_brownian_controller>
 
   </controllers>
@@ -43,7 +45,7 @@
   <!-- *********************** -->
   <!-- * Arena configuration * -->
   <!-- *********************** -->
-  <arena size="10, 10, 1" center="0,0,0.5">
+  <arena size="20, 20, 1" center="0,0,0.5">
 
     <light id="light"
            position="3.6,0,0"
@@ -52,17 +54,17 @@
            intensity="3.0"
            medium="leds" />
 
-    <box id="wall_north" size="8,0.1,0.5" movable="false">
-      <body position="0,4,0" orientation="0,0,0" />
+    <box id="wall_north" size="16,0.1,0.5" movable="false">
+      <body position="0,8,0" orientation="0,0,0" />
     </box>
-    <box id="wall_south" size="8,0.1,0.5" movable="false">
-      <body position="0,-4,0" orientation="0,0,0" />
+    <box id="wall_south" size="16,0.1,0.5" movable="false">
+      <body position="0,-8,0" orientation="0,0,0" />
     </box>
-    <box id="wall_east" size="0.1,8,0.5" movable="false">
-      <body position="4,0,0" orientation="0,0,0" />
+    <box id="wall_east" size="0.1,16,0.5" movable="false">
+      <body position="8,0,0" orientation="0,0,0" />
     </box>
-    <box id="wall_west" size="0.1,8,0.5" movable="false">
-      <body position="-4,0,0" orientation="0,0,0" />
+    <box id="wall_west" size="0.1,16,0.5" movable="false">
+      <body position="-8,0,0" orientation="0,0,0" />
     </box>
 
     <!--
