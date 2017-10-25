@@ -146,6 +146,11 @@ private:
   /* Time from the start of the simulation until a robot experiences its
      corresponding "failure".  Unused for a functional robot. */
   int ticks_to_failure;
+
+  /* The x-coordinate of the light beacon. */
+  double light_x;
+  /* The y-coordinate of the light beacon. */
+  double light_y;
 };
 
 #endif

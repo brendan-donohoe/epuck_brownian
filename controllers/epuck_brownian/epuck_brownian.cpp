@@ -63,6 +63,8 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
   GetNodeAttribute(t_node, "avoid_radius_light", avoid_radius_light);
   GetNodeAttribute(t_node, "omega_ticks", omega_ticks);
   GetNodeAttribute(t_node, "ticks_to_failure", ticks_to_failure);
+  GetNodeAttribute(t_node, "light_x", light_x);
+  GetNodeAttribute(t_node, "light_y", light_y);
 
   std::cout << "Init() called" << std::endl;
 
@@ -152,7 +154,7 @@ void CEPuckBrownian::ControlStep()
     case SENSOR_FAILURE: SensorFailureStep();
                          break;
     case MOTOR_FAILURE : MotorFailureStep();
-                          break;
+                         break;
     default            : std::cout << "ERROR: UNKNOWN FAILURE TYPE";
   }
 

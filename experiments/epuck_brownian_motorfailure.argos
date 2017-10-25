@@ -32,10 +32,12 @@
         <range_and_bearing implementation="medium" medium="rab" show_rays="false" />
       </sensors>
       <params velocity="5"
-          avoid_radius_init="5.0"
-          avoid_radius_light="10.0"
+          avoid_radius_init="10.0"
+          avoid_radius_light="20.0"
           omega_ticks="25"
-          ticks_to_failure="600" />
+          ticks_to_failure="450"
+          light_x="3.6"
+          light_y="0" />
     </epuck_brownian_controller>
 
   </controllers>
