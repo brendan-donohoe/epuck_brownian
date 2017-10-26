@@ -8,6 +8,7 @@ while [  $COUNTER -lt 100 ]; do
     sed '/t=/!d' temp.txt > temp2.txt
     sed 's/t= //' temp2.txt > temp.txt
     sed -e '1,2d;4,9d' temp.txt >> powerfailure_10epucks.txt
+    let COUNTER++
 done
 rm temp.txt
 rm temp2.txt
