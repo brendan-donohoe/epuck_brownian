@@ -66,7 +66,7 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
   GetNodeAttribute(t_node, "light_x", light_x);
   GetNodeAttribute(t_node, "light_y", light_y);
 
-  std::cout << "Init() called" << std::endl;
+  //std::cout << "Init() called" << std::endl;
 
   /*
    * Based on the ID string of this robot (itself set via the argos experiment
@@ -106,6 +106,7 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
   ticks_since_start = 0;
   
   printed_result = false;
+  counter = 0;
 
   /*
    * Until ticks_to_failure seconds elapse, function normally, and let the other
@@ -173,7 +174,7 @@ void CEPuckBrownian::FunctioningStep()
 
   if (((x - light_x) * (x - light_x) + (y - light_y) * (y - light_y) < 0.01) && !printed_result)
   {
-    std::cout << "id=" << GetId() << ";t="<< ticks_since_start / 10.0 << ";" << std::endl;
+    printf ("t= %4.2f \n", ticks_since_start/10.0);
     printed_result = true;
   }
 
@@ -425,7 +426,7 @@ void CEPuckBrownian::MotorFailureStep()
 
 
 void CEPuckBrownian::Destroy() {
-  std::cout << "Destroy() called" << std::endl;
+  //std::cout << "Destroy() called" << std::endl;
 }
 
 
