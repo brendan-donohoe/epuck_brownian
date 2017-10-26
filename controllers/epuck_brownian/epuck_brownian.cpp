@@ -8,9 +8,7 @@
 #include <string>
 #include <sstream>
 #include <fstream>
-#include <cstdlib>
 #include <iostream>
-#include <ctime>
 
 /****************************************/
 /****************************************/
@@ -18,8 +16,7 @@
 CEPuckBrownian::CEPuckBrownian() :
   m_pcWheels(NULL),
   m_pcProximity(NULL),
-  m_fWheelVelocity(2.5f)
-   {}
+  m_fWheelVelocity(2.5f) {}
 
 /****************************************/
 /****************************************/
@@ -54,7 +51,6 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
   m_pcRABA      = GetActuator<CCI_RangeAndBearingActuator     >("range_and_bearing");
   m_pcRABS      = GetSensor  <CCI_RangeAndBearingSensor       >("range_and_bearing");
 
-
   /*
    * Parse the configuration file
    *
@@ -62,16 +58,15 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
    * parameters and it's nice to put them in the config file so we don't
    * have to recompile if we want to try other settings.
    */
-
- 
- 
   GetNodeAttributeOrDefault(t_node, "velocity", m_fWheelVelocity, m_fWheelVelocity);
   GetNodeAttribute(t_node, "avoid_radius_init", avoid_radius_init);
   GetNodeAttribute(t_node, "avoid_radius_light", avoid_radius_light);
   GetNodeAttribute(t_node, "omega_ticks", omega_ticks);
   GetNodeAttribute(t_node, "ticks_to_failure", ticks_to_failure);
+  GetNodeAttribute(t_node, "light_x", light_x);
+  GetNodeAttribute(t_node, "light_y", light_y);
 
-  std::cout << "Init() called" << std::endl;
+  //std::cout << "Init() called" << std::endl;
 
   /*
    * Based on the ID string of this robot (itself set via the argos experiment
@@ -109,12 +104,13 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
 
   ticks_since_last_avoidance = 0;
   ticks_since_start = 0;
+  
+  printed_result = false;
+  counter = 0;
 
   srand(time(NULL));
-  randomMotorFailure = rand()%2;
-   
-  
-  
+  randomMotorFailure = rand() % 2;
+
   /*
    * Until ticks_to_failure seconds elapse, function normally, and let the other
    * robots know that we are functioning normally.
@@ -164,7 +160,7 @@ void CEPuckBrownian::ControlStep()
     case SENSOR_FAILURE: SensorFailureStep();
                          break;
     case MOTOR_FAILURE : MotorFailureStep();
-                          break;
+                         break;
     default            : std::cout << "ERROR: UNKNOWN FAILURE TYPE";
   }
 
@@ -176,6 +172,15 @@ void CEPuckBrownian::ControlStep()
 
 void CEPuckBrownian::FunctioningStep()
 {
+  float x = m_pcPosition->GetReading().Position.GetX();
+  float y = m_pcPosition->GetReading().Position.GetY();
+
+  if (((x - light_x) * (x - light_x) + (y - light_y) * (y - light_y) < 0.01) && !printed_result)
+  {
+    printf ("t= %4.2f \n", ticks_since_start/10.0);
+    printed_result = true;
+  }
+
   /*
    * First, determine the radius of avoidance of our current robot, which
    * depends on whether or not we detect light from the beacon source.
@@ -392,39 +397,23 @@ void CEPuckBrownian::MotorFailureStep()
    * This robot has experienced motor failure. 
    */
 
-  int type = 1;
-  
+  // if only one motor is not working, the robot can still turn.
 
-  if (type ==1)
+  if (randomMotorFailure == 0)
   {
-    // if only one motor is not working, the robot can still turn.
-
-    if (randomMotorFailure==1)
-    {
-      // only right turn is posible (left motor only working)
-      m_pcWheels->SetLinearVelocity(m_fWheelVelocity, 0.00);
-     
-    }
-
-    else
-    {
-      // only left turn is possible(right motor only working)
-      m_pcWheels->SetLinearVelocity(0.00,m_fWheelVelocity);
-    
-     }
+    // only right turn is posible (left motor only working)
+    m_pcWheels->SetLinearVelocity(m_fWheelVelocity, 0.00); 
   }
-
-  else if (type == 2)
+  else
   {
-    // if both motors are not working then the robot will just stop;
-     m_pcWheels->SetLinearVelocity(0.0,0.0);
+    // only left turn is possible(right motor only working)
+    m_pcWheels->SetLinearVelocity(0.00, m_fWheelVelocity);
   }
-  
 }
 
 
 void CEPuckBrownian::Destroy() {
-  std::cout << "Destroy() called" << std::endl;
+  //std::cout << "Destroy() called" << std::endl;
 }
 
 

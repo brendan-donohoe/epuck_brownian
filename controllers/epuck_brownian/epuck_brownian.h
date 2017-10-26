@@ -30,12 +30,14 @@
 #include <argos3/plugins/robots/generic/control_interface/ci_range_and_bearing_actuator.h>
 /* Definition of range-and-bearing sensor */
 #include <argos3/plugins/robots/generic/control_interface/ci_range_and_bearing_sensor.h>
-
+#include <iostream>
+#include <fstream>
 /*
  * All the ARGoS stuff in the 'argos' namespace.
  * With this statement, you save typing argos:: every time.
  */
 using namespace argos;
+using namespace std;
 
 /*
  * A controller is simply an implementation of the CCI_Controller class.
@@ -125,6 +127,9 @@ private:
   int current_type;
   int random_turn;
   int tick_wander;
+  bool printed_result;
+  int counter;
+
 
   /*
    * The following variables are used as parameters for the
@@ -140,15 +145,20 @@ private:
   /* Avoidance radius if beacon sensor is activated. */
   double avoid_radius_light;
 
+  /* This value determines either the left or right motor is not functioning */
+  int randomMotorFailure;
+
   /* Time a robot can go without undergoing an avoidance maneuver before
      returning to the center of the swarm. */
   int omega_ticks;
   /* Time from the start of the simulation until a robot experiences its
      corresponding "failure".  Unused for a functional robot. */
   int ticks_to_failure;
-   /* This value determines either the left or right motor is not functioning
-     */
-  int randomMotorFailure;
+
+  /* The x-coordinate of the light beacon. */
+  double light_x;
+  /* The y-coordinate of the light beacon. */
+  double light_y;
 };
 
 #endif
