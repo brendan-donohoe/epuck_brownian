@@ -10,7 +10,6 @@
 #include <fstream>
 #include <cstdlib>
 #include <iostream>
-#include <ctime>
 
 /****************************************/
 /****************************************/
@@ -54,6 +53,7 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
   m_pcRABA      = GetActuator<CCI_RangeAndBearingActuator     >("range_and_bearing");
   m_pcRABS      = GetSensor  <CCI_RangeAndBearingSensor       >("range_and_bearing");
 
+  randomMotorFailure = rand()%2 +1;
 
   /*
    * Parse the configuration file
@@ -109,11 +109,6 @@ void CEPuckBrownian::Init(TConfigurationNode& t_node) {
 
   ticks_since_last_avoidance = 0;
   ticks_since_start = 0;
-
-  srand(time(NULL));
-  randomMotorFailure = rand()%2;
-   
-  
   
   /*
    * Until ticks_to_failure seconds elapse, function normally, and let the other
@@ -393,6 +388,8 @@ void CEPuckBrownian::MotorFailureStep()
    */
 
   int type = 1;
+  //randomMotorFailure = rand() % 2;
+  argos::LOG << "rand val = " << randomMotorFailure << std::endl;
   
 
   if (type ==1)
