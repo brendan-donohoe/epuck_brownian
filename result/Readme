@@ -1,0 +1,7 @@
+
+
+1) Run notchedBoxPlot.m file from MATLAB
+2) The figures are generated and saved inside saved_figures folder
+ 
+note: notchedBoxPlot.m reads data from MotorFailureData , PowerFailureData
+and SensorFailureData folders. 
