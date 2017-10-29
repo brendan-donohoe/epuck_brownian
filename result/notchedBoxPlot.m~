@@ -65,7 +65,7 @@ TS6 = dlmread('SensorFailureData/sensorfailure_120epucks.txt');
 [sx5 sy5] = size(TS5);
 [sx6 sy6] = size(TS6);
 
-group2 = [repmat(10, [sx1 sy1]);repmat(30,[sx2,sy2]);repmat(50, [sx3 sy3]);repmat(70,[sx4,sy4]);repmat(100, [sx5 sy5]);repmat(120,[sx6,sy6])];
+group2 = [repmat(10, [sx1 sy1]);repmat(30,[sx2,sy2]);repmat(50, [mx3 sy3]);repmat(70,[sx4,sy4]);repmat(100, [sx5 sy5]);repmat(120,[sx6,sy6])];
 
 
 % ploting, labeling and saving the notch boxplot
