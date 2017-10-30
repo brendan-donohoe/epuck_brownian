@@ -1,0 +1,8 @@
+
+
+1. Save all the frames for the simulation having failure in CapturedFrames_withFailure folder
+2. Save all the frames for the simulation without failure case CapturedFrames_withoutFailure folder
+3. run makeVideoWithFailure.m from matlab to create a video having failure case. It will create a video 'video_withFailure' and save it on current directory.
+4. run makeVideoWithoutFailure.m from matlab to create a video without failure case. It will create a video 'video_withoutFailure.avi' and save it on current directory.
+
+code derived from : https://www.mathworks.com/help/matlab/examples/convert-between-image-sequences-and-video.html
